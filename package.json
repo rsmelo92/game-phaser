@@ -1,0 +1,14 @@
+{
+  "name": "game-phaser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/main.html",
+    "build": "parcel build ./src/main.html",
+    "start": "open -a 'Google Chrome' 'http://localhost:1234' --args --allow-file-access-from-files && yarn dev"
+  },
+  "dependencies": {
+    "phaser": "^3.20.1"
+  }
+}
